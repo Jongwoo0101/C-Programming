@@ -18,5 +18,6 @@ int main() {
     printf("입력받은 문자: %c\n", c);
     printf("입력받은 실수: %f\n", b);
 
+    return 0;
 }
 
