@@ -6,8 +6,7 @@ int main() {
     printf("\n현재의 상태(0: 동전투입, 1: 음료선택, 2: 음료제공, 3: 대기로 돌아가기): ");
     scanf("%d", &currentState);
 
-    switch (currentState)
-    {
+    switch (currentState) {
     case 0:
         printf("대기 중\n");
         printf("0. 동전 투입\n");
